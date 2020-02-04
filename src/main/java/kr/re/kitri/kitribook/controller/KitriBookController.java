@@ -1,7 +1,7 @@
 package kr.re.kitri.kitribook.controller;
 
 import kr.re.kitri.kitribook.model.Post;
-import kr.re.kitri.kitribook.service.kitriBookService;
+import kr.re.kitri.kitribook.service.KitriBookService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -13,7 +13,7 @@ import java.util.List;
 @RequestMapping("/kitribook")
 public class KitriBookController {
 
-    @Autowired private kr.re.kitri.kitribook.service.kitriBookService kitriBookService;
+    @Autowired private KitriBookService kitriBookService;
 
     // [GET]    /kitribook/books   .. 전체보기
     @GetMapping("/books")
