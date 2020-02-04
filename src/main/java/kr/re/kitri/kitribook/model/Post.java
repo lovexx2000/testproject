@@ -3,17 +3,27 @@ package kr.re.kitri.kitribook.model;
 // author , title , content, likes
 
 public class Post {
+    private long postId;
     private String author;
     private String title;
     private String content;
     private long likes;
 
     public Post() {}
-    public Post(String author, String title, String content, long likes) {
+    public Post(long postId ,String author, String title, String content, long likes) {
+        this.postId = postId;
         this.author = author;
         this.title = title;
         this.content = content;
         this.likes = likes;
+    }
+
+    public long getPostId() {
+        return postId;
+    }
+
+    public void setPostId(long postId) {
+        this.postId = postId;
     }
 
     public String getAuthor() {
@@ -51,7 +61,8 @@ public class Post {
     @Override
     public String toString() {
         return "Post{" +
-                "author='" + author + '\'' +
+                "postId=" + postId +
+                ", author='" + author + '\'' +
                 ", title='" + title + '\'' +
                 ", content='" + content + '\'' +
                 ", likes=" + likes +
