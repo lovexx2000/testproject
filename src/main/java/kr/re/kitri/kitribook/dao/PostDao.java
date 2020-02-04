@@ -9,14 +9,21 @@ import java.util.List;
 @Repository
 public class PostDao {
 
-    public void insertPost() {
-
+    public Post insertPost(Post post) {
+        //insert into post values(
+        System.out.println("insert ok....");
+        return post;
     }
-    public void updatePost() {
-
+    public Post updatePost(Post post) {
+        // update query
+        System.out.println(" update ok");
+        return post;
     }
-    public void deletePost() {
+    public long deletePost(long bookId) {
+        // delete from post where bookid = bookid
 
+        System.out.println("delete ok");
+        return bookId;
     }
     public List<Post> selectAllPosts() {
         // select * from post
@@ -32,9 +39,10 @@ public class PostDao {
 
         return books;
     }
-    public String selectPostByKey() {
-
-        return "post by key";
+    public Post selectPostByKey(long bookId) {
+        //select * from book where bookid = bookid
+        Post post = new Post("박찬호" , "투머치" , "돈많고 말많고" , 20);
+        return post;
     }
 
 }
