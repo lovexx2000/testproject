@@ -10,6 +10,7 @@ import org.springframework.stereotype.Repository;
 import java.util.ArrayList;
 import java.util.List;
 
+
 @Repository
 public class PostDao {
 
@@ -49,6 +50,7 @@ public class PostDao {
         List<Post> books =  session.selectList("kr.re.kitri.kitribook.dao.PostDao.selectAllPosts" );
         return books;
     }
+
     public Post selectPostByKey(long bookId) {
         //select * from book where bookid = bookid
         //Post post = new Post(4 ,"박찬호" , "투머치" , "돈많고 말많고" , 20);
