@@ -16,6 +16,17 @@
     </update>
 
     <delete id="deletePost" parameterType="java.lang.Long">
-        dekete from post where post_id=#{postId}
+        delete from post where post_id=#{postId}
     </delete>
+    <select id="selectPostByKey"  parameterType="java.lang.Long" resultType="kr.re.kitri.kitribook.model.Post">
+        select post_id as postId ,author ,title,content ,likes
+        from post
+        where post_id = #{bookId}
+    </select>
+
+    <select id="selectAllPosts" resultType="kr.re.kitri.kitribook.model.Post">
+        select post_id as postId ,author ,title,content ,likes
+        from post
+    </select>
+
 </mapper>

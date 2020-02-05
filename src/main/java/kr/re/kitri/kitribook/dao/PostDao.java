@@ -38,21 +38,23 @@ public class PostDao {
     public List<Post> selectAllPosts() {
         // select * from post
 
-        List<Post> books = new ArrayList<>();
+    /*    List<Post> books = new ArrayList<>();
         Post book1 = new Post(1,"lee" , "no1" , "aaa" ,10);
         Post book2 = new Post(2, "kim" , "no2" , "bbb" ,10);
         Post book3 = new Post(3, "park" , "no3" , "bb" ,10);
 
         books.add(book1);
         books.add(book2);
-        books.add(book3);
-
+        books.add(book3);*/
+        List<Post> books =  session.selectList("kr.re.kitri.kitribook.dao.PostDao.selectAllPosts" );
         return books;
     }
     public Post selectPostByKey(long bookId) {
         //select * from book where bookid = bookid
-        Post post = new Post(4 ,"박찬호" , "투머치" , "돈많고 말많고" , 20);
-        return post;
+        //Post post = new Post(4 ,"박찬호" , "투머치" , "돈많고 말많고" , 20);
+
+        return session.selectOne("kr.re.kitri.kitribook.dao.PostDao.selectPostByKey", bookId);
+
     }
 
 }
