@@ -1,0 +1,1113 @@
+{
+	"id": "0fc05d1b-19ff-3c1e-f4f0-4ebd817e09ea",
+	"name": "lysRequest",
+	"description": "",
+	"order": [
+		"ef7a909b-944d-d41a-3d64-bc934e8a9c32",
+		"ec1c46ea-8b38-896e-5157-b044e5281307",
+		"0ecf4618-52b0-56de-39f7-af490e17fa86",
+		"58b67462-1142-2027-fe2c-8d4609c0545a",
+		"4d1fef1f-774e-f350-52f4-e132f94bcdf6",
+		"fb9dcfcb-69c5-20ff-d488-b79e742bdcdc",
+		"fda94a7c-b73e-d6ae-0b11-1d89eb571e11",
+		"bd3b499f-83b0-b4a4-c007-37d96304c49b",
+		"9c41add3-fbdd-0530-7080-1ffc3bb0ac1d",
+		"57576ae0-69e1-e1b0-c25b-75663f9b3459",
+		"e5a55b9f-464d-3db9-ed06-e62da9cff583",
+		"a4cc44b7-aa64-00aa-77f3-0dd099cc0b08",
+		"5a3f97b8-67e2-d6e5-7ebe-4ef00212d3b4",
+		"19c3c7d5-7fb1-5f18-6827-4a1530034e4e",
+		"66dfaa5d-51a7-cad0-979f-af137397d08a",
+		"c0ab74c7-277e-5a25-4385-6b9f9c85070f",
+		"eed7bc4a-4056-ba1f-bfa2-3574b4bb20e7",
+		"2fc76b01-d1aa-084c-3503-3416af9af77e",
+		"cae8c808-36dd-e085-790f-96f0954548a2",
+		"dbad7cef-fb9c-295f-9cbc-88af5ce4f07f",
+		"d131b01d-5224-7300-121a-baf01a318be7",
+		"6161f0d5-d9b1-109c-0082-5b9c68953769",
+		"b5a4d711-75a6-0d35-154f-46e0a880ffc4",
+		"df1e8bd1-7b1f-ceb9-63fe-b62a50c46eac",
+		"947379e2-f35e-7a24-e2ce-bebedefd191e",
+		"31925bc5-746e-3e7c-b526-8f01b8eda344",
+		"ef2fb522-ff8a-3789-344f-6ad82a54c01a",
+		"438be3dd-8bcf-d0a1-bfe1-e93cac5a76f3",
+		"666a0d36-c5aa-cc3f-4ca1-b24013e1bcf0",
+		"d0506a48-ff70-95d3-ca21-675d9c1a1d59",
+		"a8c46b81-37f6-37ae-6dec-8b9aa35d751d",
+		"3c7bad6a-adcc-510b-72c8-d862d86660cd",
+		"deb26b04-350f-d4b2-5c98-fc3c7ff39945",
+		"4f5b6ac4-58cb-26af-9796-b6b00ef4f31e"
+	],
+	"folders": [],
+	"folders_order": [],
+	"timestamp": 1580950982358,
+	"owner": "8419135",
+	"public": false,
+	"requests": [
+		{
+			"id": "0ecf4618-52b0-56de-39f7-af490e17fa86",
+			"url": "http://localhost:8080/kitribook/books",
+			"queryParams": [],
+			"method": "PUT",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"name": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"data": [],
+			"dataMode": "raw",
+			"tests": null,
+			"preRequestScript": null,
+			"currentHelper": "normal",
+			"pathVariables": {},
+			"pathVariableData": [],
+			"version": 2,
+			"name": "http://localhost:8080/kitribook/books",
+			"description": "",
+			"descriptionFormat": "html",
+			"collectionId": "0fc05d1b-19ff-3c1e-f4f0-4ebd817e09ea",
+			"rawModeData": "{\n\t\"title\": \"with json data\",\n\t\"author\": \"이영수\",\n\t\"content\": \"good\",\n\t\"like\" : 1\n}"
+		},
+		{
+			"id": "19c3c7d5-7fb1-5f18-6827-4a1530034e4e",
+			"url": "http://localhost:8080/kitribook/books/30",
+			"queryParams": [],
+			"method": "DELETE",
+			"headers": "",
+			"headerData": [],
+			"data": null,
+			"dataMode": "params",
+			"tests": null,
+			"preRequestScript": null,
+			"currentHelper": "normal",
+			"pathVariables": {},
+			"pathVariableData": [],
+			"version": 2,
+			"name": "http://localhost:8080/kitribook/books/30",
+			"description": "",
+			"descriptionFormat": "html",
+			"collectionId": "0fc05d1b-19ff-3c1e-f4f0-4ebd817e09ea"
+		},
+		{
+			"id": "2fc76b01-d1aa-084c-3503-3416af9af77e",
+			"url": "http://localhost:8080/kitribook/books",
+			"queryParams": [],
+			"method": "POST",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"type": "text",
+					"name": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"data": [],
+			"dataMode": "raw",
+			"tests": null,
+			"preRequestScript": null,
+			"currentHelper": "normal",
+			"pathVariables": {},
+			"pathVariableData": [],
+			"version": 2,
+			"name": "http://localhost:8080/kitribook/books",
+			"description": "",
+			"descriptionFormat": "html",
+			"collectionId": "0fc05d1b-19ff-3c1e-f4f0-4ebd817e09ea",
+			"rawModeData": "{\n\t\"title\": \"with json data\",\n\t\"author\": \"choi\",\n\t\"content\": \"good\",\n\t\"like\" : 0\n}"
+		},
+		{
+			"id": "31925bc5-746e-3e7c-b526-8f01b8eda344",
+			"url": "http://localhost:8080/kitribook/books",
+			"queryParams": [],
+			"method": "POST",
+			"headers": "Content-Type: application/x-www-form-urlencoded\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"type": "text",
+					"name": "Content-Type",
+					"value": "application/x-www-form-urlencoded",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"data": [
+				{
+					"key": "title",
+					"value": "with post method",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "author",
+					"value": "choi",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "content",
+					"value": "good ok......thanks",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "likes",
+					"value": "0",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "urlencoded",
+			"tests": null,
+			"preRequestScript": null,
+			"currentHelper": "normal",
+			"pathVariables": {},
+			"pathVariableData": [],
+			"version": 2,
+			"name": "http://localhost:8080/kitribook/books",
+			"description": "",
+			"descriptionFormat": "html",
+			"collectionId": "0fc05d1b-19ff-3c1e-f4f0-4ebd817e09ea"
+		},
+		{
+			"id": "3c7bad6a-adcc-510b-72c8-d862d86660cd",
+			"url": "http://localhost:8080/kitribook/books",
+			"queryParams": [],
+			"method": "POST",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"type": "text",
+					"name": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"data": [],
+			"dataMode": "raw",
+			"tests": null,
+			"preRequestScript": null,
+			"currentHelper": "normal",
+			"pathVariables": {},
+			"pathVariableData": [],
+			"version": 2,
+			"name": "http://localhost:8080/kitribook/books",
+			"description": "",
+			"descriptionFormat": "html",
+			"collectionId": "0fc05d1b-19ff-3c1e-f4f0-4ebd817e09ea",
+			"rawModeData": "{\n\t\"postId\" : 4,\n\t\"title\": \"with json data\",\n\t\"author\": \"testtttt\",\n\t\"content\": \"good\",\n\t\"like\" : 0\n}"
+		},
+		{
+			"id": "438be3dd-8bcf-d0a1-bfe1-e93cac5a76f3",
+			"url": "http://localhost:8080/kitribook/books",
+			"queryParams": [],
+			"method": "GET",
+			"headers": "",
+			"headerData": [],
+			"data": null,
+			"dataMode": "params",
+			"tests": null,
+			"preRequestScript": null,
+			"currentHelper": "normal",
+			"pathVariables": {},
+			"pathVariableData": [],
+			"version": 2,
+			"name": "http://localhost:8080/kitribook/books",
+			"description": "",
+			"descriptionFormat": "html",
+			"collectionId": "0fc05d1b-19ff-3c1e-f4f0-4ebd817e09ea"
+		},
+		{
+			"id": "4d1fef1f-774e-f350-52f4-e132f94bcdf6",
+			"url": "http://localhost:8080/kitribook/books/30",
+			"queryParams": [],
+			"method": "GET",
+			"headers": "",
+			"headerData": [],
+			"data": null,
+			"dataMode": "params",
+			"tests": null,
+			"preRequestScript": null,
+			"currentHelper": "normal",
+			"pathVariables": {},
+			"pathVariableData": [],
+			"version": 2,
+			"name": "http://localhost:8080/kitribook/books/30",
+			"description": "",
+			"descriptionFormat": "html",
+			"collectionId": "0fc05d1b-19ff-3c1e-f4f0-4ebd817e09ea"
+		},
+		{
+			"id": "4f5b6ac4-58cb-26af-9796-b6b00ef4f31e",
+			"url": "http://localhost:8080/kitribook/books",
+			"queryParams": [],
+			"method": "PUT",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"name": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"data": [],
+			"dataMode": "raw",
+			"tests": null,
+			"preRequestScript": null,
+			"currentHelper": "normal",
+			"pathVariables": {},
+			"pathVariableData": [],
+			"version": 2,
+			"name": "http://localhost:8080/kitribook/books",
+			"description": "",
+			"descriptionFormat": "html",
+			"collectionId": "0fc05d1b-19ff-3c1e-f4f0-4ebd817e09ea",
+			"rawModeData": "{\n\t\"postId\" : 4,\n\t\"title\": \"with json data\",\n\t\"author\": \"testttt\",\n\t\"content\": \"good\",\n\t\"like\" : 1\n}"
+		},
+		{
+			"id": "57576ae0-69e1-e1b0-c25b-75663f9b3459",
+			"url": "http://localhost:8080/kitribook/books",
+			"queryParams": [],
+			"method": "POST",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"type": "text",
+					"name": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"data": [],
+			"dataMode": "raw",
+			"tests": null,
+			"preRequestScript": null,
+			"currentHelper": "normal",
+			"pathVariables": {},
+			"pathVariableData": [],
+			"version": 2,
+			"name": "http://localhost:8080/kitribook/books",
+			"description": "",
+			"descriptionFormat": "html",
+			"collectionId": "0fc05d1b-19ff-3c1e-f4f0-4ebd817e09ea",
+			"rawModeData": "{\n\t\"title\": \"with json data\",\n\t\"author\": \"이영수\",\n\t\"content\": \"good\",\n\t\"like\" : 0\n}"
+		},
+		{
+			"id": "58b67462-1142-2027-fe2c-8d4609c0545a",
+			"url": "http://localhost:8080/kitribook/books",
+			"queryParams": [],
+			"method": "POST",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"type": "text",
+					"name": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"data": [],
+			"dataMode": "raw",
+			"tests": null,
+			"preRequestScript": null,
+			"currentHelper": "normal",
+			"pathVariables": {},
+			"pathVariableData": [],
+			"version": 2,
+			"name": "http://localhost:8080/kitribook/books",
+			"description": "",
+			"descriptionFormat": "html",
+			"collectionId": "0fc05d1b-19ff-3c1e-f4f0-4ebd817e09ea",
+			"rawModeData": "{\n\t\"title\": \"with json data\",\n\t\"author\": \"이영수\",\n\t\"content\": \"good\",\n\t\"like\" : 0\n}"
+		},
+		{
+			"id": "5a3f97b8-67e2-d6e5-7ebe-4ef00212d3b4",
+			"url": "http://localhost:8080/kitribook/books/30",
+			"queryParams": [],
+			"method": "DELETE",
+			"headers": "",
+			"headerData": [],
+			"data": null,
+			"dataMode": "params",
+			"tests": null,
+			"preRequestScript": null,
+			"currentHelper": "normal",
+			"pathVariables": {},
+			"pathVariableData": [],
+			"version": 2,
+			"name": "http://localhost:8080/kitribook/books/30",
+			"description": "",
+			"descriptionFormat": "html",
+			"collectionId": "0fc05d1b-19ff-3c1e-f4f0-4ebd817e09ea"
+		},
+		{
+			"id": "6161f0d5-d9b1-109c-0082-5b9c68953769",
+			"url": "http://localhost:8080/kitribook/books",
+			"queryParams": [],
+			"method": "POST",
+			"headers": "Content-Type: application/x-www-form-urlencoded\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"type": "text",
+					"name": "Content-Type",
+					"value": "application/x-www-form-urlencoded",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"data": [
+				{
+					"key": "title",
+					"value": "with post method",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "author",
+					"value": "choi",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "content",
+					"value": "good ok thanks",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "likes",
+					"value": "1",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "urlencoded",
+			"tests": null,
+			"preRequestScript": null,
+			"currentHelper": "normal",
+			"pathVariables": {},
+			"pathVariableData": [],
+			"version": 2,
+			"name": "http://localhost:8080/kitribook/books",
+			"description": "",
+			"descriptionFormat": "html",
+			"collectionId": "0fc05d1b-19ff-3c1e-f4f0-4ebd817e09ea"
+		},
+		{
+			"id": "666a0d36-c5aa-cc3f-4ca1-b24013e1bcf0",
+			"url": "http://localhost:8080/kitribook/books/2",
+			"queryParams": [],
+			"method": "GET",
+			"headers": "",
+			"headerData": [],
+			"data": null,
+			"dataMode": "params",
+			"tests": null,
+			"preRequestScript": null,
+			"currentHelper": "normal",
+			"pathVariables": {},
+			"pathVariableData": [],
+			"version": 2,
+			"name": "http://localhost:8080/kitribook/books/2",
+			"description": "",
+			"descriptionFormat": "html",
+			"collectionId": "0fc05d1b-19ff-3c1e-f4f0-4ebd817e09ea"
+		},
+		{
+			"id": "66dfaa5d-51a7-cad0-979f-af137397d08a",
+			"url": "http://localhost:8080/kitribook/books",
+			"queryParams": [],
+			"method": "PUT",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"name": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"data": [],
+			"dataMode": "raw",
+			"tests": null,
+			"preRequestScript": null,
+			"currentHelper": "normal",
+			"pathVariables": {},
+			"pathVariableData": [],
+			"version": 2,
+			"name": "http://localhost:8080/kitribook/books",
+			"description": "",
+			"descriptionFormat": "html",
+			"collectionId": "0fc05d1b-19ff-3c1e-f4f0-4ebd817e09ea",
+			"rawModeData": "{\n\t\"title\": \"with json data\",\n\t\"author\": \"이영수\",\n\t\"content\": \"good\",\n\t\"like\" : 1\n}"
+		},
+		{
+			"id": "947379e2-f35e-7a24-e2ce-bebedefd191e",
+			"url": "http://localhost:8080/kitribook/books",
+			"queryParams": [],
+			"method": "POST",
+			"headers": "Content-Type: application/x-www-form-urlencoded\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"type": "text",
+					"name": "Content-Type",
+					"value": "application/x-www-form-urlencoded",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"data": [
+				{
+					"key": "title",
+					"value": "with post method",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "author",
+					"value": "choi",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "content",
+					"value": "good ok......thanks",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "likes",
+					"value": "0",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "urlencoded",
+			"tests": null,
+			"preRequestScript": null,
+			"currentHelper": "normal",
+			"pathVariables": {},
+			"pathVariableData": [],
+			"version": 2,
+			"name": "http://localhost:8080/kitribook/books",
+			"description": "",
+			"descriptionFormat": "html",
+			"collectionId": "0fc05d1b-19ff-3c1e-f4f0-4ebd817e09ea"
+		},
+		{
+			"id": "9c41add3-fbdd-0530-7080-1ffc3bb0ac1d",
+			"url": "http://localhost:8080/kitribook/books/30",
+			"queryParams": [],
+			"method": "POST",
+			"headers": "Content-Type: application/x-www-form-urlencoded\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"type": "text",
+					"name": "Content-Type",
+					"value": "application/x-www-form-urlencoded",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"data": [
+				{
+					"key": "title",
+					"value": "with post method",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "author",
+					"value": "choi",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "content",
+					"value": "good ok thanks",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "likes",
+					"value": "1",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "urlencoded",
+			"tests": null,
+			"preRequestScript": null,
+			"currentHelper": "normal",
+			"pathVariables": {},
+			"pathVariableData": [],
+			"version": 2,
+			"name": "http://localhost:8080/kitribook/books/30",
+			"description": "",
+			"descriptionFormat": "html",
+			"collectionId": "0fc05d1b-19ff-3c1e-f4f0-4ebd817e09ea"
+		},
+		{
+			"id": "a4cc44b7-aa64-00aa-77f3-0dd099cc0b08",
+			"url": "http://localhost:8080/kitribook/books/30",
+			"queryParams": [],
+			"method": "DELETE",
+			"headers": "",
+			"headerData": [],
+			"data": null,
+			"dataMode": "params",
+			"tests": null,
+			"preRequestScript": null,
+			"currentHelper": "normal",
+			"pathVariables": {},
+			"pathVariableData": [],
+			"version": 2,
+			"name": "http://localhost:8080/kitribook/books/30",
+			"description": "",
+			"descriptionFormat": "html",
+			"collectionId": "0fc05d1b-19ff-3c1e-f4f0-4ebd817e09ea"
+		},
+		{
+			"id": "a8c46b81-37f6-37ae-6dec-8b9aa35d751d",
+			"url": "http://localhost:8080/kitribook/books/4",
+			"queryParams": [],
+			"method": "DELETE",
+			"headers": "",
+			"headerData": [],
+			"data": null,
+			"dataMode": "params",
+			"tests": null,
+			"preRequestScript": null,
+			"currentHelper": "normal",
+			"pathVariables": {},
+			"pathVariableData": [],
+			"version": 2,
+			"name": "http://localhost:8080/kitribook/books/4",
+			"description": "",
+			"descriptionFormat": "html",
+			"collectionId": "0fc05d1b-19ff-3c1e-f4f0-4ebd817e09ea"
+		},
+		{
+			"id": "b5a4d711-75a6-0d35-154f-46e0a880ffc4",
+			"url": "http://localhost:8080/kitribook/books",
+			"queryParams": [],
+			"method": "POST",
+			"headers": "Content-Type: application/x-www-form-urlencoded\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"type": "text",
+					"name": "Content-Type",
+					"value": "application/x-www-form-urlencoded",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"data": [
+				{
+					"key": "title",
+					"value": "with post method",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "author",
+					"value": "choi",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "content",
+					"value": "good ok......thanks",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "likes",
+					"value": "0",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "urlencoded",
+			"tests": null,
+			"preRequestScript": null,
+			"currentHelper": "normal",
+			"pathVariables": {},
+			"pathVariableData": [],
+			"version": 2,
+			"name": "http://localhost:8080/kitribook/books",
+			"description": "",
+			"descriptionFormat": "html",
+			"collectionId": "0fc05d1b-19ff-3c1e-f4f0-4ebd817e09ea"
+		},
+		{
+			"id": "bd3b499f-83b0-b4a4-c007-37d96304c49b",
+			"url": "http://localhost:8080/kitribook/books/30",
+			"queryParams": [],
+			"method": "POST",
+			"headers": "",
+			"headerData": [],
+			"data": null,
+			"dataMode": "params",
+			"tests": null,
+			"preRequestScript": null,
+			"currentHelper": "normal",
+			"pathVariables": {},
+			"pathVariableData": [],
+			"version": 2,
+			"name": "http://localhost:8080/kitribook/books/30",
+			"description": "",
+			"descriptionFormat": "html",
+			"collectionId": "0fc05d1b-19ff-3c1e-f4f0-4ebd817e09ea"
+		},
+		{
+			"id": "c0ab74c7-277e-5a25-4385-6b9f9c85070f",
+			"url": "http://localhost:8080/kitribook/books",
+			"queryParams": [],
+			"method": "POST",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"type": "text",
+					"name": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"data": [],
+			"dataMode": "raw",
+			"tests": null,
+			"preRequestScript": null,
+			"currentHelper": "normal",
+			"pathVariables": {},
+			"pathVariableData": [],
+			"version": 2,
+			"name": "http://localhost:8080/kitribook/books",
+			"description": "",
+			"descriptionFormat": "html",
+			"collectionId": "0fc05d1b-19ff-3c1e-f4f0-4ebd817e09ea",
+			"rawModeData": "{\n\t\"title\": \"with json data\",\n\t\"author\": \"이영수\",\n\t\"content\": \"good\",\n\t\"like\" : 0\n}"
+		},
+		{
+			"id": "cae8c808-36dd-e085-790f-96f0954548a2",
+			"url": "http://localhost:8080/kitribook/books",
+			"queryParams": [],
+			"method": "POST",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"type": "text",
+					"name": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"data": [],
+			"dataMode": "raw",
+			"tests": null,
+			"preRequestScript": null,
+			"currentHelper": "normal",
+			"pathVariables": {},
+			"pathVariableData": [],
+			"version": 2,
+			"name": "http://localhost:8080/kitribook/books",
+			"description": "",
+			"descriptionFormat": "html",
+			"collectionId": "0fc05d1b-19ff-3c1e-f4f0-4ebd817e09ea",
+			"rawModeData": "{\n\t\"title\": \"with json data\",\n\t\"autho2r\": \"choi\",\n\t\"content\": \"good\",\n\t\"like\" : 0\n}"
+		},
+		{
+			"id": "d0506a48-ff70-95d3-ca21-675d9c1a1d59",
+			"url": "http://localhost:8080/kitribook/books/4",
+			"queryParams": [],
+			"method": "DELETE",
+			"headers": "",
+			"headerData": [],
+			"data": null,
+			"dataMode": "params",
+			"tests": null,
+			"preRequestScript": null,
+			"currentHelper": "normal",
+			"pathVariables": {},
+			"pathVariableData": [],
+			"version": 2,
+			"name": "http://localhost:8080/kitribook/books/4",
+			"description": "",
+			"descriptionFormat": "html",
+			"collectionId": "0fc05d1b-19ff-3c1e-f4f0-4ebd817e09ea"
+		},
+		{
+			"id": "d131b01d-5224-7300-121a-baf01a318be7",
+			"url": "http://localhost:8080/kitribook/books",
+			"queryParams": [],
+			"method": "POST",
+			"headers": "Content-Type: application/x-www-form-urlencoded\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"type": "text",
+					"name": "Content-Type",
+					"value": "application/x-www-form-urlencoded",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"data": [],
+			"dataMode": "params",
+			"tests": null,
+			"preRequestScript": null,
+			"currentHelper": "normal",
+			"pathVariables": {},
+			"pathVariableData": [],
+			"version": 2,
+			"name": "http://localhost:8080/kitribook/books",
+			"description": "",
+			"descriptionFormat": "html",
+			"collectionId": "0fc05d1b-19ff-3c1e-f4f0-4ebd817e09ea"
+		},
+		{
+			"id": "dbad7cef-fb9c-295f-9cbc-88af5ce4f07f",
+			"url": "http://localhost:8080/kitribook/books",
+			"queryParams": [],
+			"method": "POST",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"type": "text",
+					"name": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"data": [],
+			"dataMode": "raw",
+			"tests": null,
+			"preRequestScript": null,
+			"currentHelper": "normal",
+			"pathVariables": {},
+			"pathVariableData": [],
+			"version": 2,
+			"name": "http://localhost:8080/kitribook/books",
+			"description": "",
+			"descriptionFormat": "html",
+			"collectionId": "0fc05d1b-19ff-3c1e-f4f0-4ebd817e09ea",
+			"rawModeData": "{\n\t\"title\": \"with json data\",\n\t\"author\": \"choi\",\n\t\"content\": \"good\",\n\t\"like\" : 0\n}"
+		},
+		{
+			"id": "deb26b04-350f-d4b2-5c98-fc3c7ff39945",
+			"url": "http://localhost:8080/kitribook/books",
+			"queryParams": [],
+			"method": "POST",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"type": "text",
+					"name": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"data": [],
+			"dataMode": "raw",
+			"tests": null,
+			"preRequestScript": null,
+			"currentHelper": "normal",
+			"pathVariables": {},
+			"pathVariableData": [],
+			"version": 2,
+			"name": "http://localhost:8080/kitribook/books",
+			"description": "",
+			"descriptionFormat": "html",
+			"collectionId": "0fc05d1b-19ff-3c1e-f4f0-4ebd817e09ea",
+			"rawModeData": "{\n\t\"postId\" : 4,\n\t\"title\": \"with json data\",\n\t\"author\": \"이영수\",\n\t\"content\": \"good\",\n\t\"like\" : 0\n}"
+		},
+		{
+			"id": "df1e8bd1-7b1f-ceb9-63fe-b62a50c46eac",
+			"url": "http://localhost:8080/kitribook/books",
+			"queryParams": [],
+			"method": "POST",
+			"headers": "Content-Type: application/x-www-form-urlencoded\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"type": "text",
+					"name": "Content-Type",
+					"value": "application/x-www-form-urlencoded",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"data": [
+				{
+					"key": "title",
+					"value": "with post method",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "author",
+					"value": "choi",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "content",
+					"value": "good ok......thanks",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "likes",
+					"value": "0",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "urlencoded",
+			"tests": null,
+			"preRequestScript": null,
+			"currentHelper": "normal",
+			"pathVariables": {},
+			"pathVariableData": [],
+			"version": 2,
+			"name": "http://localhost:8080/kitribook/books",
+			"description": "",
+			"descriptionFormat": "html",
+			"collectionId": "0fc05d1b-19ff-3c1e-f4f0-4ebd817e09ea"
+		},
+		{
+			"id": "e5a55b9f-464d-3db9-ed06-e62da9cff583",
+			"url": "http://localhost:8080/kitribook/books/30",
+			"queryParams": [],
+			"method": "DELETE",
+			"headers": "",
+			"headerData": [],
+			"data": null,
+			"dataMode": "params",
+			"tests": null,
+			"preRequestScript": null,
+			"currentHelper": "normal",
+			"pathVariables": {},
+			"pathVariableData": [],
+			"version": 2,
+			"name": "http://localhost:8080/kitribook/books/30",
+			"description": "",
+			"descriptionFormat": "html",
+			"collectionId": "0fc05d1b-19ff-3c1e-f4f0-4ebd817e09ea"
+		},
+		{
+			"id": "ec1c46ea-8b38-896e-5157-b044e5281307",
+			"url": "http://localhost:8080/kitribook/books/30",
+			"queryParams": [],
+			"method": "DELETE",
+			"headers": "",
+			"headerData": [],
+			"data": null,
+			"dataMode": "params",
+			"tests": null,
+			"preRequestScript": null,
+			"currentHelper": "normal",
+			"pathVariables": {},
+			"pathVariableData": [],
+			"version": 2,
+			"name": "http://localhost:8080/kitribook/books/30",
+			"description": "",
+			"descriptionFormat": "html",
+			"collectionId": "0fc05d1b-19ff-3c1e-f4f0-4ebd817e09ea"
+		},
+		{
+			"id": "eed7bc4a-4056-ba1f-bfa2-3574b4bb20e7",
+			"url": "http://localhost:8080/kitribook/books",
+			"queryParams": [],
+			"method": "POST",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"type": "text",
+					"name": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"data": [],
+			"dataMode": "raw",
+			"tests": null,
+			"preRequestScript": null,
+			"currentHelper": "normal",
+			"pathVariables": {},
+			"pathVariableData": [],
+			"version": 2,
+			"name": "http://localhost:8080/kitribook/books",
+			"description": "",
+			"descriptionFormat": "html",
+			"collectionId": "0fc05d1b-19ff-3c1e-f4f0-4ebd817e09ea",
+			"rawModeData": "{\n\t\"title\": \"with json data\",\n\t\"author\": \"choi\",\n\t\"content\": \"good\",\n\t\"like\" : 0\n}"
+		},
+		{
+			"id": "ef2fb522-ff8a-3789-344f-6ad82a54c01a",
+			"url": "http://localhost:8080/kitribook/books?size=15$page=3",
+			"queryParams": [
+				{
+					"key": "size",
+					"value": "15$page=3",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				}
+			],
+			"method": "GET",
+			"headers": "",
+			"headerData": [],
+			"data": null,
+			"dataMode": "params",
+			"tests": null,
+			"preRequestScript": null,
+			"currentHelper": "normal",
+			"pathVariables": {},
+			"pathVariableData": [],
+			"version": 2,
+			"name": "http://localhost:8080/kitribook/books?size=15$page=3",
+			"description": "",
+			"descriptionFormat": "html",
+			"collectionId": "0fc05d1b-19ff-3c1e-f4f0-4ebd817e09ea"
+		},
+		{
+			"id": "ef7a909b-944d-d41a-3d64-bc934e8a9c32",
+			"url": "http://localhost:8080/kitribook/books/30",
+			"queryParams": [],
+			"method": "DELETE",
+			"headers": "",
+			"headerData": [],
+			"data": null,
+			"dataMode": "params",
+			"tests": null,
+			"preRequestScript": null,
+			"currentHelper": "normal",
+			"pathVariables": {},
+			"pathVariableData": [],
+			"version": 2,
+			"name": "http://localhost:8080/kitribook/books/30",
+			"description": "",
+			"descriptionFormat": "html",
+			"collectionId": "0fc05d1b-19ff-3c1e-f4f0-4ebd817e09ea"
+		},
+		{
+			"id": "fb9dcfcb-69c5-20ff-d488-b79e742bdcdc",
+			"url": "http://localhost:8080/kitribook/books?30",
+			"queryParams": [
+				{
+					"key": "30",
+					"value": "",
+					"equals": false,
+					"description": "",
+					"enabled": true
+				}
+			],
+			"method": "GET",
+			"headers": "",
+			"headerData": [],
+			"data": null,
+			"dataMode": "params",
+			"tests": null,
+			"preRequestScript": null,
+			"currentHelper": "normal",
+			"pathVariables": {},
+			"pathVariableData": [],
+			"version": 2,
+			"name": "http://localhost:8080/kitribook/books?30",
+			"description": "",
+			"descriptionFormat": "html",
+			"collectionId": "0fc05d1b-19ff-3c1e-f4f0-4ebd817e09ea"
+		},
+		{
+			"id": "fda94a7c-b73e-d6ae-0b11-1d89eb571e11",
+			"url": "http://localhost:8080/kitribook/books?size=15&page=3",
+			"queryParams": [
+				{
+					"key": "size",
+					"value": "15",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "page",
+					"value": "3",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				}
+			],
+			"method": "GET",
+			"headers": "",
+			"headerData": [],
+			"data": null,
+			"dataMode": "params",
+			"tests": null,
+			"preRequestScript": null,
+			"currentHelper": "normal",
+			"pathVariables": {},
+			"pathVariableData": [],
+			"version": 2,
+			"name": "http://localhost:8080/kitribook/books?size=15&page=3",
+			"description": "",
+			"descriptionFormat": "html",
+			"collectionId": "0fc05d1b-19ff-3c1e-f4f0-4ebd817e09ea"
+		}
+	]
+}

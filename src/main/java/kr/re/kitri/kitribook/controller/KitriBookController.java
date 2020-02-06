@@ -22,8 +22,7 @@ public class KitriBookController {
 
     // [GET]    /kitribook/books   .. 전체보기
     @GetMapping("/books")
-    public List<Post> viewAllPosts(/*@RequestParam("size") String size
-                                    ,@RequestParam("page") String page*/){
+    public List<Post> viewAllPosts(){
        // System.out.println("size is "+ size + " page is " + page);
         logger.debug("전체보기 수행 합니다....");
         return kitriBookService.viewPosts();

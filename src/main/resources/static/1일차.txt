@@ -84,3 +84,11 @@ aspect adviser 동일 개념
 Logback 스프링은 디폴트가 아니다.\
 
 Logger 은 org.slf4j 를 써야된다
+
+세션을 사라지는 추래
+
+Redis로 변환
+
+Rest Client
+
+Spring Webflux  spring 5
