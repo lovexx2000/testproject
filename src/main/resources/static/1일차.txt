@@ -1,0 +1,86 @@
+김순곤  스프링강사
+
+SOA : 서비스 관점 설계  
+
+Reactive 방식: 비동기 방식
+
+Reator: 비동기로 자바처리 
+
+에자일(azile) : 관리자도 개발
+   : iteration : 유연한 개발 :개발자 주도적
+
+Spring Test (필수)
+
+maven  (build tool)
+ - 기본적으로 빌드
+ - 레파지토리 관리
+
+루비온래일스
+  - 스케폴딩..
+   - Spring Boot
+
+spring boot 셋팅
+
+스프링 프로젝트 자동 생성
+https://start.spring.io/
+
+스프링 dependency 추가시 아래 두개는 필수
+- Spring Web
+ -Spring Boot DevTools
+
+spring layered architecture
+
+to be soft
+
+
+B2C 에서는 웹표준
+
+Model Driven Design (MDD)
+Domain Driven Developement (DDD)
+
+@RestController 
+
+모델 리턴시 디폴트가 json
+
+git 허브
+
+https://github.com/soongon/kitribook
+
+
+마리아DB 설치
+
+Heidi SQL db 클라이언트 사용 :버그 많음
+DBEaver 설치
+
+자바에서 Connection 객체는 지금 사용않함
+
+DataSource 사용
+
+
+@Bean  어노테이션은 컴포넌트\
+
+컴포넌트는 was 죽을때까지 올라가서 was에서 관리\
+\
+
+@Configuration 설정 어노테이션
+
+AOP
+
+auto proxy 지정해야됨
+
+aspect adviser 동일 개념
+반드시 @Commponent 사용
+
+
+스프링 예외 처리 일반----
+
+@ControllerAdvice 전역처리
+
+
+@Controller 쓰면
+
+@ResponseBody 하면 json 리턴 된다.
+
+Logback 스프링은 디폴트가 아니다.\
+
+Logger 은 org.slf4j 를 써야된다
