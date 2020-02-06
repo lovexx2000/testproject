@@ -1,12 +1,15 @@
 package kr.re.kitri.kitribook.dao;
 
+import kr.re.kitri.kitribook.exception.BizException;
 import kr.re.kitri.kitribook.model.Post;
 import org.apache.ibatis.session.SqlSession;
 import org.apache.ibatis.session.SqlSessionFactory;
 import org.mybatis.spring.SqlSessionTemplate;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.jdbc.BadSqlGrammarException;
 import org.springframework.stereotype.Repository;
 
+import java.sql.SQLException;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -47,8 +50,16 @@ public class PostDao {
         books.add(book1);
         books.add(book2);
         books.add(book3);*/
-        List<Post> books =  session.selectList("kr.re.kitri.kitribook.dao.PostDao.selectAllPosts" );
-        return books;
+        try {
+
+
+
+            List<Post> books =  session.selectList("kr.re.kitri.kitribook.dao.PostDao.selectAllPosts" );
+            return books;
+        } catch (BadSqlGrammarException se) {
+            // 쿼리문법오류 : KITRI-0023
+            throw new BizException("KITRI-0023", se);
+        }
     }
 
     public Post selectPostByKey(long bookId) {

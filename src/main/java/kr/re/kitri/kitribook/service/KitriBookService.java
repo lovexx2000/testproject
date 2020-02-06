@@ -16,7 +16,8 @@ public class KitriBookService {
 
 
     public List<Post> viewPosts() {
-       return postDao.selectAllPosts();
+
+        return postDao.selectAllPosts();
     }
 
     public  Post  viewPostById(long bookId){
