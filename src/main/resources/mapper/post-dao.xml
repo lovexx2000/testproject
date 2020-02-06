@@ -26,7 +26,7 @@
 
     <select id="selectAllPosts" resultType="kr.re.kitri.kitribook.model.Post">
         select post_id as postId ,author ,title,content ,likes
-        from posts
+        from post
     </select>
 
 </mapper>

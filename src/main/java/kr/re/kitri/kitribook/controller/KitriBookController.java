@@ -2,22 +2,30 @@ package kr.re.kitri.kitribook.controller;
 
 import kr.re.kitri.kitribook.model.Post;
 import kr.re.kitri.kitribook.service.KitriBookService;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
 
+import static org.slf4j.LoggerFactory.getLogger;
+
 @RestController
 @RequestMapping("/kitribook")
 public class KitriBookController {
 
-    @Autowired private KitriBookService kitriBookService;
+    public static Logger logger = LoggerFactory.getLogger(KitriBookService.class);
+
+    @Autowired
+    private KitriBookService kitriBookService;
 
     // [GET]    /kitribook/books   .. 전체보기
     @GetMapping("/books")
     public List<Post> viewAllPosts(/*@RequestParam("size") String size
                                     ,@RequestParam("page") String page*/){
        // System.out.println("size is "+ size + " page is " + page);
+        logger.debug("전체보기 수행 합니다....");
         return kitriBookService.viewPosts();
     }
 
