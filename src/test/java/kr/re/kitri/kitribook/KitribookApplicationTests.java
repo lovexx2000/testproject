@@ -6,7 +6,7 @@ import org.springframework.boot.test.context.SpringBootTest;
 @SpringBootTest
 class KitribookApplicationTests {
 
-	@Test
+//	@Test
 	void contextLoads() {
 	}
 
